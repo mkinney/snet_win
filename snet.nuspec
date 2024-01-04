@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>snet</id>
+    <version>0.4.0</version>
+    <title>snet</title>
+    <authors>Mike Kinney</authors>
+    <owners>chocolatey-community</owners>
+    <projectUrl>https://github.com/mkinney/snet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>snet admin cli</tags>
+    <summary>snet is the command-line utility for doing simple network testing of tcp/udp clients/servers.</summary>
+    <description><![CDATA[snet is a command-line utility designed to test connectivity. Can be started as a client or a server. Can be TCP or UDP-based.
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
