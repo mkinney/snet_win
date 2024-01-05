@@ -1,5 +1,7 @@
 Building a nupkg for the snet utilty so it can be installed via Chocolatey.
 
+https://github.com/mkinney/snet
+
 See session.txt for a session where these commands are run.
 
 # make sure "snet" is not installed
